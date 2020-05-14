@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+	<link rel="icon" href="Images\favicon.ico">
+<head>
+	<title>My Dream Home | Home</title>
+	<style type="text/css">
+		p {
+			background-color: red;
+			padding: 20;
+		}
+		h4 {
+			background-color: black;
+			padding: 20;
+		}
+		body {
+			  margin: 0;
+			  background: #000; 
+			}
+			video { 
+			    position: fixed;
+			    top: 50%;
+			    left: 50%;
+			    min-width: 100%;
+			    min-height: 100%;
+			    width: auto;
+			    height: auto;
+			    z-index: -100;
+			    transform: translateX(-50%) translateY(-50%);
+			 background: url('Videos\f.mp4') no-repeat;
+			  background-size: cover;
+			  transition: 1s opacity;
+			}
+			.stopfade { 
+			   opacity: .5;
+			}
+			a {
+			  display: inline-block;
+			  color: #fff;
+			  text-decoration: none;
+			  background:rgba(0,0,0,0.5);
+			  padding: .5rem;
+			  transition: .6s background; 
+			}
+			a:hover{
+			  background:rgba(0,0,0,0.9);
+			}
+			@media screen and (max-width: 500px) { 
+			  div{width:70%;} 
+			}
+			@media screen and (max-device-width: 800px) {
+			  html { background: url(Videos\t.mp4) #000 no-repeat center center fixed; }
+			  #bgvid { display: none; }
+			}
+	</style>
+	<video id="bgvid" playsinline autoplay muted loop>
+		<source src="Videos\t.mp4" type="video/webm">
+		<source src="Videos\t.mp4" type="video/mp4">
+	</video>
+	</div>
+</head>
+<body bgcolor="#F3F3F3" alink="#000000" vlink="#000000" link="#000000">
+	<div class="content">
+		<div class="top">
+			<hr>
+			<h1><b><center><font size="10" color="#FF0000"><float>My <i>Dream</i> Home</float></font></center></b></h1>
+			<hr>
+		</div>
+		<div class="middle">
+			<div class="nav">
+				<table align="left" border="1" cellspacing="2" cellpadding="0">
+						<tr><td><font size="6" color="#FFFFFF" face="impact"><a href="Home.html">Home</a></font></td></tr>
+						<tr><td><font size="6" color="#FFFFFF" face="impact"><a href="b1.html">Bedroom 1</a></font></td></tr>
+						<tr><td><font size="6" color="#FFFFFF" face="impact"><a href="b2.html">Bedroom 2</a></font></td></tr>
+						<tr><td><font size="6" color="#FFFFFF" face="impact"><a href="b3.html">Bedroom 3</a></font></td></tr>
+						<tr><td><font size="6" color="#FFFFFF" face="impact"><a href="b4.html">Bedroom 4</a></font></td></tr>
+						<tr><td><font size="6" color="#FFFFFF" face="impact"><a href="lr.html">Living Room</a></font></td></tr>
+						<tr><td><font size="6" color="#FFFFFF" face="impact"><a href="k.html">Kitchen</a></font></td></tr>
+						<tr><td><font size="6" color="#FFFFFF" face="impact"><a href="g.html">Garage</a></font></td></tr>
+						<tr><td><font size="6" color="#FFFFFF" face="impact"><a href="bib.html">Bibliography</a></font></td></tr>
+				</table>
+			</div>
+			<div class="slide">
+			<center>
+				<meta name="viewport" content="width=device-width, initial-scale=1">
+				<style>
+				* {box-sizing:border-box}
+				body {font-family: Verdana,sans-serif;}
+				.mySlides {display:none}
+
+				/* Slideshow container */
+				.slideshow-container {
+				  max-width: 500px;
+				  position: relative;
+				  margin: auto;
+				}
+
+				/* Caption text */
+				.text {
+				  color: #f2f2f2;
+				  font-size: 15px;
+				  padding: 8px 12px;
+				  position: absolute;
+				  bottom: 8px;
+				  width: 100%;
+				  text-align: center;
+				}
+
+				/* Number text (1/3 etc) */
+				.numbertext {
+				  color: #f2f2f2;
+				  font-size: 12px;
+				  padding: 8px 12px;
+				  position: absolute;
+				  top: 0;
+				}
+
+				/* The dots/bullets/indicators */
+				.dot {
+				  height: 13px;
+				  width: 13px;
+				  margin: 0 2px;
+				  background-color: #bbb;
+				  border-radius: 50%;
+				  display: inline-block;
+				  transition: background-color 0.6s ease;
+				}
+
+				.active {
+				  background-color: #717171;
+				}
+
+				/* Fading animation */
+				.fade {
+				  -webkit-animation-name: fade;
+				  -webkit-animation-duration: 1.5s;
+				  animation-name: fade;
+				  animation-duration: 1.5s;
+				}
+
+				@-webkit-keyframes fade {
+				  from {opacity: .4} 
+				  to {opacity: 1}
+				}
+
+				@keyframes fade {
+				  from {opacity: .4} 
+				  to {opacity: 1}
+				}
+
+				/* On smaller screens, decrease text size */
+				@media only screen and (max-width: 300px) {
+				  .text {font-size: 11px}
+				}
+				</style>
+				</head>
+				<body>
+
+				<div class="slideshow-container">
+
+				<div class="mySlides fade">
+				  <div class="numbertext">1 / 3</div>
+				  <img src="Images\Home.jpg" style="width:100%">
+				  <div class="text"><b><font color="FF0000">My Dream Home</font></b></div>
+				</div>
+
+				<div class="mySlides fade">
+				  <div class="numbertext">2 / 3</div>
+				  <img src="Images\B1.jpg" style="width:100%">
+				  <div class="text"><b><font color="#FF0000">Bedroom 1</font></b></div>
+				</div>
+
+				<div class="mySlides fade">
+				  <div class="numbertext">3 / 3</div>
+				  <img src="Images\B2.jpg" style="width:100%">
+				  <div class="text"><b><font color="#FF0000">Bedroom 2</font></b></div>
+				</div>
+
+				</div>
+				<br>
+
+				<div style="text-align:center">
+				  <span class="dot"></span> 
+				  <span class="dot"></span> 
+				  <span class="dot"></span> 
+				</div>
+
+				<script>
+				var slideIndex = 0;
+				showSlides();
+
+				function showSlides() {
+				    var i;
+				    var slides = document.getElementsByClassName("mySlides");
+				    var dots = document.getElementsByClassName("dot");
+				    for (i = 0; i < slides.length; i++) {
+				       slides[i].style.display = "none";  
+				    }
+				    slideIndex++;
+				    if (slideIndex> slides.length) {slideIndex = 1}    
+				    for (i = 0; i < dots.length; i++) {
+				        dots[i].className = dots[i].className.replace(" active", "");
+				    }
+				    slides[slideIndex-1].style.display = "block";  
+				    dots[slideIndex-1].className += " active";
+				    setTimeout(showSlides, 2000); // Change image every 2 seconds
+				}
+				</script>
+			</center>
+			</div>
+			<div class="mainp">
+				<center><float><font color="black"><p>
+				Welcome to <b>My<i> Dream</i> Home</b> website. In this website,<br>we will be covering what my dream home would<br>look like and why I would like it to my specifications.
+				</p></float></font></center>
+				<p><float><center>
+						<h2><b><font size="5" color="#FF0000">My Dream Home Description</font></b></h2>
+						<font color="white">
+							Outside of my dream home are plants, I have chosen to have plants and specifically placed them in<br>the front yard to make it look better and much more appealing as well as making it have a<br>natural and inviting look for others. Present in the inside of the home, there are 5 bedrooms,<br>each bedroom has a king-sized bed located inside them as well as an ultra HD tv for maximum<br>comfort of users. The kitchen is joined with the living room to make it easy to access with the<br>living room having a lower floor level then the kitchen to with dark wood as the flooring to make<br>it have a very indeed relaxing feeling.
+						</font>
+				</center></float></p>
+				<p><float><center>
+					<h3><b><font size="5" color="#FF0000">Why My Dream Home Should Be To My Specifications</font></b></h3>
+					<font color="white">
+						The reason that my dream home should be to my specifications are because it is to be your dream home, this<br> means that it is a home that you have dream of wanting to have and should be to your complete<br>specifications otherwise it would not be classified as your dream home as it does not match what you have<br>wanted.
+					</font>
+				</center></float></p>
+			</div>
+		</div>
+		<div class="bottom">
+			<h4>
+			&nbsp
+			<hr color="red">
+			<bottom><p><center><b><font color="#FFFFFF" align=center size="2" face="impact">&copy Gabriel Tobing 2017. All rights reserved.</font></b></center></p></bottom>
+			<hr color="red">
+			&nbsp
+			</h4>
+		</div>
+	</div>
+</body>
+</html>
